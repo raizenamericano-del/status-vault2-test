@@ -1,0 +1,27 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+*.log
+.DS_Store
+
+# Data (persistent volume in production)
+/data/
+data/
+
+# Prisma
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# Client
+client/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+tmp/
+*.tsbuildinfo
